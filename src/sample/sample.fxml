@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="波特率时间计算">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ComboBox fx:id="bt_btl" layoutX="64.0" layoutY="63.0" prefHeight="23.0" prefWidth="120.0" />
+                        <ComboBox fx:id="bt_89" layoutX="209.0" layoutY="63.0" prefHeight="23.0" prefWidth="66.0" />
+                        <ComboBox fx:id="bt_stopbit" layoutX="296.0" layoutY="63.0" prefHeight="23.0" prefWidth="88.0" />
+                        <ComboBox fx:id="bt_pariy" layoutX="410.0" layoutY="63.0" prefHeight="23.0" prefWidth="86.0" />
+                        <TextField fx:id="bt_num" layoutX="137.0" layoutY="116.0" text="1" />
+                        <Label layoutX="78.0" layoutY="120.0" text="字节数:" />
+                        <Text fx:id="bt_usetime" layoutX="159.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Untitled Tab 2">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>
